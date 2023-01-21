@@ -1,0 +1,79 @@
+$fuente1:'Lato', sans-serif;
+$fuente2:'Oswald',sans-serif;
+$color-h1:#333333;
+$color-h2:#939393;
+$color-claro:#FFFFFF;
+$color-p-input:#625E5E;
+$fondo-input:rgba(5, 5, 5, 0.05);
+$fondo-button-secundario:#27445B;
+$box-shadow-button-secundario:#7E8078;
+$box-shadow-button-primario:#B7A4A4;
+$box-shadow-input:#7E7878;
+$font-size-input:1.6rem;
+$font-size-h1:2.7rem;
+$font-size-button:2.4rem;
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+header{
+    width:200vw;
+    max-width: 100rem;
+    min-width: 32rem;
+    margin: auto;
+}
+
+main {
+    width: 200vw;
+    max-width: 100rem;
+    min-width: 32rem;
+    height: 89rem;
+}
+
+h1{
+    color: $color-h1;
+    font-family: $fuente1;
+    font-size: $font-size-h1;
+}
+
+input,p, button{
+    font-family:$fuente2;
+}
+
+p{
+    color: $color-p-input;
+}
+
+input, button{
+    border-radius: 2rem;
+}
+
+input {
+    width: 100%;
+    height: 92px;
+    padding: 3rem;
+}
+input::placeholder {
+    color: $color-p-input;
+    font-size: $font-size-input;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+button{
+    width: 341px;
+    height:58px;
+    color: $color-claro;
+    line-height: 3.1rem;
+    font-size: $font-size-button;
+}
+
+h1, button{
+    font-weight: 700;
+}

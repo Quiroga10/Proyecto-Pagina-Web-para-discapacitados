@@ -1,0 +1,18 @@
+@import "../sass/globales.scss";
+
+h2{
+    text-align: center;
+    margin-top: 10.5rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+    color: $color-h2;
+}
+
+main{
+    section{
+        display: grid;
+        place-items: center;
+        grid-auto-columns: 100%;
+        grid-template-rows: 10% 10% 10% 10% 10%;
+    }
+}
