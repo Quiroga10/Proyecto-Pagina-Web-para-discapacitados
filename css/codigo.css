@@ -29,6 +29,13 @@ h1 {
   font-size: 2.7rem;
 }
 
+h2 {
+  font-weight: 700;
+  line-height: 3.4rem;
+  font-size: 2.6rem;
+  color: #939393;
+}
+
 input, p, button {
   font-family: "Oswald", sans-serif;
 }
@@ -69,16 +76,34 @@ h1, button {
 h2 {
   text-align: center;
   margin-top: 10.5rem;
-  font-weight: 700;
-  line-height: 3.4rem;
-  color: #939393;
+  margin-bottom: 3rem;
 }
 
 main section {
   display: grid;
+  height: 45rem;
   place-items: center;
-  grid-auto-columns: 100%;
-  grid-template-rows: 10% 10% 10% 10% 10%;
+  grid-auto-columns: 80%;
+  grid-template-rows: 106% 7% 6% 19% 17%;
+  background-color: aqua;
+  justify-content: center;
+}
+main section picture {
+  width: 124%;
+  margin-top: 7rem;
+  height: auto;
+  text-align: center;
+}
+main section picture img:nth-child(1) {
+  position: relative;
+  width: 277px;
+  height: 467px;
+}
+main section picture img:nth-child(2) {
+  position: absolute;
+  width: 12rem;
+  margin-top: 1rem;
+  margin-left: -7rem;
 }
 
 /*# sourceMappingURL=codigo.css.map */

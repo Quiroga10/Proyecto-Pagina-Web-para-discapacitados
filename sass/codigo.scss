@@ -3,16 +3,34 @@
 h2{
     text-align: center;
     margin-top: 10.5rem;
-    font-weight: 700;
-    line-height: 3.4rem;
-    color: $color-h2;
+    margin-bottom: 3rem;
 }
 
 main{
     section{
         display: grid;
+        height: 45rem;
         place-items: center;
-        grid-auto-columns: 100%;
-        grid-template-rows: 10% 10% 10% 10% 10%;
+        grid-auto-columns: 80%;
+        grid-template-rows: 106% 7% 6% 19% 17%;
+        background-color: aqua;
+        justify-content: center;
+        picture{
+            width: 124%;
+            margin-top: 7rem;
+            height: auto;
+            text-align: center;
+            img:nth-child(1){
+                position: relative;
+                width: 277px;
+                height: 467px;
+            }
+            img:nth-child(2){
+                position: absolute;
+                width: 12rem;
+                margin-top: 1rem;
+                margin-left: -7rem;
+            }
+        }
     }
 }

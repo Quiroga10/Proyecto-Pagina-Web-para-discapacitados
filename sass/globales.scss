@@ -11,6 +11,7 @@ $box-shadow-button-primario:#B7A4A4;
 $box-shadow-input:#7E7878;
 $font-size-input:1.6rem;
 $font-size-h1:2.7rem;
+$font-size-h2:2.6rem;
 $font-size-button:2.4rem;
 
 *{
@@ -42,7 +43,12 @@ h1{
     font-family: $fuente1;
     font-size: $font-size-h1;
 }
-
+h2{
+    font-weight: 700;
+    line-height: 3.4rem;
+    font-size: $font-size-h2;
+    color: $color-h2;
+}
 input,p, button{
     font-family:$fuente2;
 }
