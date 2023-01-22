@@ -10,17 +10,16 @@ html {
 }
 
 header {
-  width: 200vw;
+  width: 100vw;
   max-width: 100rem;
   min-width: 32rem;
   margin: auto;
 }
 
 main {
-  width: 200vw;
+  width: 100vw;
   max-width: 100rem;
   min-width: 32rem;
-  height: 89rem;
 }
 
 h1 {
@@ -30,10 +29,20 @@ h1 {
 }
 
 h2 {
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   line-height: 3.4rem;
   font-size: 2.6rem;
   color: #939393;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 2.5rem;
+  color: #000000;
+  text-align: center;
 }
 
 input, p, button {
@@ -41,7 +50,11 @@ input, p, button {
 }
 
 p {
-  color: #625E5E;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 20px;
+  color: #868484;
+  text-align: center;
 }
 
 input, button {
@@ -50,13 +63,12 @@ input, button {
 
 input {
   width: 100%;
-  height: 92px;
   padding: 3rem;
 }
 
 input::placeholder {
   color: #625E5E;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 2.1rem;
 }

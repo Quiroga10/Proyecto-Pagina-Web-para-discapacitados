@@ -1,17 +1,22 @@
 $fuente1:'Lato', sans-serif;
 $fuente2:'Oswald',sans-serif;
+
 $color-h1:#333333;
 $color-h2:#939393;
+$color-p:#868484;
+$color-placeholder:#625E5E;
 $color-claro:#FFFFFF;
-$color-p-input:#625E5E;
-$fondo-input:rgba(5, 5, 5, 0.05);
-$fondo-button-secundario:#27445B;
-$box-shadow-button-secundario:#7E8078;
+$color-oscuro:#000000;
+
+$fondo-button-secundario:#27445bbd;
+$box-shadow-button-secundario:#7e787840;
 $box-shadow-button-primario:#B7A4A4;
 $box-shadow-input:#7E7878;
-$font-size-input:1.6rem;
+
+$font-size-input:1.2rem;
 $font-size-h1:2.7rem;
 $font-size-h2:2.6rem;
+$font-size-h3:2.5rem;
 $font-size-button:2.4rem;
 
 *{
@@ -25,17 +30,16 @@ html{
     font-size: 62.5%;
 }
 header{
-    width:200vw;
+    width:100vw;
     max-width: 100rem;
     min-width: 32rem;
     margin: auto;
 }
 
 main {
-    width: 200vw;
+    width: 100vw;
     max-width: 100rem;
     min-width: 32rem;
-    height: 89rem;
 }
 
 h1{
@@ -44,17 +48,30 @@ h1{
     font-size: $font-size-h1;
 }
 h2{
+    font-family: $fuente2;
     font-weight: 700;
     line-height: 3.4rem;
     font-size: $font-size-h2;
     color: $color-h2;
+}
+h3{
+    font-family: $fuente2;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: $font-size-h3;
+    color: $color-oscuro;
+    text-align: center;
 }
 input,p, button{
     font-family:$fuente2;
 }
 
 p{
-    color: $color-p-input;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 20px;
+    color: $color-p;
+    text-align: center;
 }
 
 input, button{
@@ -63,11 +80,10 @@ input, button{
 
 input {
     width: 100%;
-    height: 92px;
     padding: 3rem;
 }
 input::placeholder {
-    color: $color-p-input;
+    color: $color-placeholder;
     font-size: $font-size-input;
     font-weight: 400;
     line-height: 2.1rem;

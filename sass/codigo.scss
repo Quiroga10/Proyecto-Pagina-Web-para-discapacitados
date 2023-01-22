@@ -2,35 +2,49 @@
 
 h2{
     text-align: center;
-    margin-top: 10.5rem;
-    margin-bottom: 3rem;
+    margin-top: 4.5rem;
 }
 
 main{
+    height: auto;
     section{
         display: grid;
-        height: 45rem;
+        height: auto;
         place-items: center;
         grid-auto-columns: 80%;
-        grid-template-rows: 106% 7% 6% 19% 17%;
-        background-color: aqua;
+        grid-template-rows: 70% 14% 10% 19% 19%;
         justify-content: center;
         picture{
-            width: 124%;
-            margin-top: 7rem;
+            width: 133%;
             height: auto;
             text-align: center;
             img:nth-child(1){
                 position: relative;
-                width: 277px;
-                height: 467px;
+                width: 230px;
+                height: 249px;
             }
             img:nth-child(2){
                 position: absolute;
-                width: 12rem;
-                margin-top: 1rem;
-                margin-left: -7rem;
+                width: 8rem;
+                margin-top: -2rem;
+                margin-left: -8rem;
             }
+        }
+        p{
+            span{
+                color: $color-oscuro;
+            }
+        }
+        input{
+            background-color: #FFFFFF;
+            border: 0.1rem solid #FFFFFF;
+            box-shadow: 0 0.4rem 0.4rem #7e7878;
+            height: 1rem;
+        }
+        .main__button-secondario {
+            background: $fondo-button-secundario;
+            border: 1px solid $color-claro;
+            box-shadow: 0px 4px 4px $box-shadow-button-secundario;
         }
     }
 }

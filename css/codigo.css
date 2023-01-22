@@ -10,17 +10,16 @@ html {
 }
 
 header {
-  width: 200vw;
+  width: 100vw;
   max-width: 100rem;
   min-width: 32rem;
   margin: auto;
 }
 
 main {
-  width: 200vw;
+  width: 100vw;
   max-width: 100rem;
   min-width: 32rem;
-  height: 89rem;
 }
 
 h1 {
@@ -30,10 +29,20 @@ h1 {
 }
 
 h2 {
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   line-height: 3.4rem;
   font-size: 2.6rem;
   color: #939393;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 2.5rem;
+  color: #000000;
+  text-align: center;
 }
 
 input, p, button {
@@ -41,7 +50,11 @@ input, p, button {
 }
 
 p {
-  color: #625E5E;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 20px;
+  color: #868484;
+  text-align: center;
 }
 
 input, button {
@@ -50,13 +63,12 @@ input, button {
 
 input {
   width: 100%;
-  height: 92px;
   padding: 3rem;
 }
 
 input::placeholder {
   color: #625E5E;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 2.1rem;
 }
@@ -75,35 +87,49 @@ h1, button {
 
 h2 {
   text-align: center;
-  margin-top: 10.5rem;
-  margin-bottom: 3rem;
+  margin-top: 4.5rem;
 }
 
+main {
+  height: auto;
+}
 main section {
   display: grid;
-  height: 45rem;
+  height: auto;
   place-items: center;
   grid-auto-columns: 80%;
-  grid-template-rows: 106% 7% 6% 19% 17%;
-  background-color: aqua;
+  grid-template-rows: 70% 14% 10% 19% 19%;
   justify-content: center;
 }
 main section picture {
-  width: 124%;
-  margin-top: 7rem;
+  width: 133%;
   height: auto;
   text-align: center;
 }
 main section picture img:nth-child(1) {
   position: relative;
-  width: 277px;
-  height: 467px;
+  width: 230px;
+  height: 249px;
 }
 main section picture img:nth-child(2) {
   position: absolute;
-  width: 12rem;
-  margin-top: 1rem;
-  margin-left: -7rem;
+  width: 8rem;
+  margin-top: -2rem;
+  margin-left: -8rem;
+}
+main section p span {
+  color: #000000;
+}
+main section input {
+  background-color: #FFFFFF;
+  border: 0.1rem solid #FFFFFF;
+  box-shadow: 0 0.4rem 0.4rem #7e7878;
+  height: 1rem;
+}
+main section .main__button-secondario {
+  background: rgba(39, 68, 91, 0.7411764706);
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(126, 120, 120, 0.2509803922);
 }
 
 /*# sourceMappingURL=codigo.css.map */

@@ -10,17 +10,16 @@ html {
 }
 
 header {
-  width: 200vw;
+  width: 100vw;
   max-width: 100rem;
   min-width: 32rem;
   margin: auto;
 }
 
 main {
-  width: 200vw;
+  width: 100vw;
   max-width: 100rem;
   min-width: 32rem;
-  height: 89rem;
 }
 
 h1 {
@@ -30,10 +29,20 @@ h1 {
 }
 
 h2 {
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   line-height: 3.4rem;
   font-size: 2.6rem;
   color: #939393;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 2.5rem;
+  color: #000000;
+  text-align: center;
 }
 
 input, p, button {
@@ -41,7 +50,11 @@ input, p, button {
 }
 
 p {
-  color: #625E5E;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 20px;
+  color: #868484;
+  text-align: center;
 }
 
 input, button {
@@ -50,13 +63,12 @@ input, button {
 
 input {
   width: 100%;
-  height: 92px;
   padding: 3rem;
 }
 
 input::placeholder {
   color: #625E5E;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 2.1rem;
 }
@@ -99,6 +111,7 @@ main {
   grid-auto-columns: 100%;
   grid-template-rows: 11% 50% 13%;
   overflow: hidden;
+  height: 89rem;
 }
 main .main__input {
   position: relative;
@@ -111,6 +124,7 @@ main .main__input input {
   background-color: rgba(5, 5, 5, 0.05);
   border: 0.1rem solid #FFFFFF;
   box-shadow: 0 0.4rem 0.4rem #7e7878;
+  height: auto;
 }
 main .main__input .fa-solid {
   position: absolute;
@@ -128,7 +142,9 @@ main .main__input .fa-lock {
   top: 32.6rem;
 }
 main .main__button-secondario {
-  background-color: #27445B;
+  background: rgba(39, 68, 91, 0.74);
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(126, 120, 120, 0.25);
 }
 
 /*# sourceMappingURL=style.css.map */
