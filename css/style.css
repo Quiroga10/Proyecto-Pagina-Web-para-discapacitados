@@ -53,7 +53,7 @@ p {
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 20px;
-  color: #868484;
+  color: #747474;
   text-align: center;
 }
 
@@ -109,22 +109,22 @@ main {
   display: grid;
   place-items: center;
   grid-auto-columns: 100%;
-  grid-template-rows: 11% 50% 13%;
+  grid-template-rows: 19% 62% 16%;
   overflow: hidden;
-  height: 89rem;
+  height: 43rem;
 }
 main .main__input {
   position: relative;
   display: grid;
-  grid-template-columns: 491px;
+  grid-template-columns: 258px;
   grid-auto-rows: 83px;
-  gap: 6rem;
+  gap: 1rem;
 }
 main .main__input input {
   background-color: rgba(5, 5, 5, 0.05);
   border: 0.1rem solid #FFFFFF;
   box-shadow: 0 0.4rem 0.4rem #7e7878;
-  height: auto;
+  height: 6rem;
 }
 main .main__input .fa-solid {
   position: absolute;
@@ -133,13 +133,13 @@ main .main__input .fa-envelope, main .main__input .fa-unlock, main .main__input 
   left: 1.2rem;
 }
 main .main__input .fa-envelope {
-  top: 3.8rem;
+  top: 2.8rem;
 }
 main .main__input .fa-unlock {
-  top: 18.2rem;
+  top: 12rem;
 }
 main .main__input .fa-lock {
-  top: 32.6rem;
+  top: 21.3rem;
 }
 main .main__button-secondario {
   background: rgba(39, 68, 91, 0.74);

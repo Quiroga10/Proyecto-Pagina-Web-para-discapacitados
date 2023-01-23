@@ -23,20 +23,20 @@ main {
     display: grid;
     place-items: center;
     grid-auto-columns: 100%;
-    grid-template-rows: 11% 50% 13%;
+    grid-template-rows: 19% 62% 16%;
     overflow: hidden;
-    height: 89rem;
+    height: 43rem;
     .main__input {
         position: relative;
         display: grid;
-        grid-template-columns: 491px;
+        grid-template-columns: 258px;
         grid-auto-rows: 83px;
-        gap: 6rem;
+        gap: 1rem;
         input {
             background-color: rgba(5, 5, 5, 0.05);
             border: 0.1rem solid #FFFFFF;
             box-shadow: 0 0.4rem 0.4rem #7e7878;
-            height: auto;
+            height: 6rem;
         }
         .fa-solid{
             position: absolute;
@@ -45,13 +45,13 @@ main {
             left: 1.2rem;
         }
         .fa-envelope{
-            top: 3.8rem;
+            top: 2.8rem;
         }
         .fa-unlock{
-            top: 18.2rem;
+            top: 12rem;
         }
         .fa-lock{
-            top:32.6rem;
+            top:21.3rem;
         }
     }
     .main__button-secondario {
