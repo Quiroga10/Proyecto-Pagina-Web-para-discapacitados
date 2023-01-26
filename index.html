@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/slider/slider.css">
+    <title>home</title>
+</head>
+<body>
+    <div className="slider-container">
+        <SliderContent activeIndex={activeIndex} imageSlider={imageSlider} />
+        <Arrows
+            prev={() => setActiveIndex(activeIndex < 1 ? leg : activeIndex - 1)}
+            next={() => setActiveIndex(activeIndex === leg ? 0 : activeIndex + 1)}
+        />
+        <Dots
+            activeIndex={activeIndex}
+            imageSlider={imageSlider}
+            onclick={(activeIndex) => setActiveIndex(activeIndex)}
+        />
+    </div>
+</body>
+</html>
