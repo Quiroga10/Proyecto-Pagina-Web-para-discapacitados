@@ -93,51 +93,72 @@ h1, button {
   font-weight: 700;
 }
 
-header h2 {
-  text-align: center;
-  margin-top: 4.5rem;
+header {
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header picture {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+header picture img {
+  width: 100%;
+  height: auto;
+}
+header .header__wave {
+  position: absolute;
+  width: 100%;
+  bottom: -2.7rem;
 }
 
 main {
-  height: auto;
+  display: grid;
+  place-items: center;
+  grid-auto-columns: 100%;
+  grid-template-rows: 19% 62% 16%;
+  overflow: hidden;
+  height: 43rem;
 }
 main section {
-  display: grid;
-  height: auto;
-  place-items: center;
-  grid-auto-columns: 80%;
-  grid-template-rows: 70% 14% 10% 19% 19%;
-  justify-content: center;
+  display: flex;
 }
-main section picture {
-  width: 133%;
-  height: auto;
-  text-align: center;
+main section .section__h1 h1 {
+  font-weight: 100;
 }
-main section picture img:nth-child(1) {
+main section .section__h2 h2 {
+  font-weight: 100;
+}
+main .main__input {
   position: relative;
-  width: 230px;
-  height: 249px;
+  display: grid;
+  grid-template-columns: 258px;
+  grid-auto-rows: 83px;
+  gap: 1rem;
 }
-main section picture img:nth-child(2) {
-  position: absolute;
-  width: 8rem;
-  margin-top: -2rem;
-  margin-left: -8rem;
-}
-main section p span {
-  color: #000000;
-}
-main section input {
-  background-color: #FFFFFF;
+main .main__input input {
+  background-color: rgba(5, 5, 5, 0.05);
   border: 0.1rem solid #FFFFFF;
   box-shadow: 0 0.4rem 0.4rem #7e7878;
-  height: 1rem;
+  height: 6rem;
 }
-main section .main__button-secondario {
-  background: rgba(39, 68, 91, 0.7411764706);
+main .main__input .fa-solid {
+  position: absolute;
+}
+main .main__input .fa-envelope, main .main__input .fa-unlock {
+  left: 1.2rem;
+}
+main .main__input .fa-envelope {
+  top: 2.8rem;
+}
+main .main__input .fa-unlock {
+  top: 12rem;
+}
+main .main__button-secondario {
+  background: rgba(39, 68, 91, 0.74);
   border: 1px solid #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(126, 120, 120, 0.2509803922);
+  box-shadow: 0px 4px 4px rgba(126, 120, 120, 0.25);
 }
 
-/*# sourceMappingURL=codigo.css.map */
+/*# sourceMappingURL=login.css.map */

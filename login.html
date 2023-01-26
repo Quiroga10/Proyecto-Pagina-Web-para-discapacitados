@@ -1,31 +1,41 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esta pagina te mostrará trabajos para personas con discapacidad">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Restablecer contraseña</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login</title>
 </head>
 <body>
     <header>
         <picture>
-            <source media="(min-width:1300px)" srcset="./img/frame6/fondo_olvide_contraseña_mobile_large.jpg"/>
-            <source media="(min-width:768px)" srcset="./img/frame6/fondo_olvide_contraseña_mobile_medium.jpg"/>
-            <img loading="lazy" src="./img/frame6/fondo_olvide_contraseña_mobile_small.jpg" alt="Es una imágen para mobile"/>
+            <source media="(min-width:1300px)" srcset="./img/frame4-5/fondo_login_mobile_large.jpg"/>
+            <source media="(min-width:768px)" srcset="./img/frame4-5/fondo_login_mobile_medium.jpg"/>
+            <img loading="lazy" src="./img/frame4-5/fondo_login_mobile_small.jpg" alt="Es una imágen para mobile"/>
         </picture>
         <div class="header__wave" style="overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ffffff;"></path></svg></div>
     </header>
     <main>
-        <h1>Restablecer Contraseña</h1>
+        <section>
+            <div class="section__h1"">
+                <a href="login.html"></a>
+                <h1>Iniciar sesion /</h1>
+            </div>
+            <div class="section__h2">
+                <a href="registrar.html">
+                <h2>Registrarse</h2>
+                </a>
+            </div>
+        </section>
         <div class="main__input">
             <i class="fa-solid fa-envelope"></i>
             <input placeholder="correo electronico" type="email">
             <i class="fa-solid fa-unlock"></i>
-            <input placeholder="nueva contraseña" type="password">
-            <i class="fa-solid fa-lock"></i>
-            <input placeholder="vuelva a escribir la contraseña" type="password">
+            <input placeholder="contraseña" type="password">
+            <a href="#">
+                <p class="Parrafo">Olvidaste tu contraseña</p>
+            </a>
         </div>
 
         <button class="main__button main__button-secondario">

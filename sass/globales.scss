@@ -42,6 +42,12 @@ main {
     min-width: 32rem;
 }
 
+.header__wave{
+    height:100px;
+}
+a{
+    text-decoration: none;
+}
 h1{
     color: $color-h1;
     font-family: $fuente1;
