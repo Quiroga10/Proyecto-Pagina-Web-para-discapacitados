@@ -1,4 +1,4 @@
-@import "../sass/globales.scss";
+@use "./_globales";
 header{
     position: relative;
     background-size: cover;
