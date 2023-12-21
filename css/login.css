@@ -1,164 +1,17 @@
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @use "./_globales";
+ *   | ^^^^^^^^^^^^^^^^^^
+ *   '
+ *   sass\login.scss 1:1  root stylesheet */
 
-html {
-  font-size: 62.5%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @use \"./_globales\";\d\a   \2502  ^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\login.scss 1:1  root stylesheet";
 }
-
-header {
-  width: 100vw;
-  max-width: 100rem;
-  min-width: 32rem;
-  margin: auto;
-}
-
-main {
-  width: 100vw;
-  max-width: 100rem;
-  min-width: 32rem;
-}
-
-.header__wave {
-  height: 100px;
-}
-
-a {
-  text-decoration: none;
-}
-
-h1 {
-  color: #333333;
-  font-family: "Lato", sans-serif;
-  font-size: 2.7rem;
-}
-
-h2 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 700;
-  line-height: 3.4rem;
-  font-size: 2.6rem;
-  color: #939393;
-}
-
-h3 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 700;
-  line-height: 25px;
-  font-size: 2.5rem;
-  color: #000000;
-  text-align: center;
-}
-
-input, p, button {
-  font-family: "Oswald", sans-serif;
-}
-
-p {
-  font-weight: 700;
-  font-size: 1.2rem;
-  line-height: 20px;
-  color: #747474;
-  text-align: center;
-}
-
-input, button {
-  border-radius: 2rem;
-}
-
-input {
-  width: 100%;
-  padding: 3rem;
-}
-
-input::placeholder {
-  color: #625E5E;
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 2.1rem;
-}
-
-button {
-  width: 255px;
-  height: 58px;
-  color: #FFFFFF;
-  line-height: 3.1rem;
-  font-size: 2.4rem;
-}
-
-h1, button {
-  font-weight: 700;
-}
-
-header {
-  position: relative;
-  background-size: cover;
-  background-attachment: fixed;
-}
-header picture {
-  display: inline-block;
-  width: 100%;
-  height: auto;
-}
-header picture img {
-  width: 100%;
-  height: auto;
-}
-header .header__wave {
-  position: absolute;
-  width: 100%;
-  bottom: -2.7rem;
-}
-
-main {
-  display: grid;
-  place-items: center;
-  grid-auto-columns: 100%;
-  grid-template-rows: 19% 62% 16%;
-  overflow: hidden;
-  height: 43rem;
-}
-main section {
-  display: flex;
-}
-main section .section__h1 h1 {
-  font-weight: 100;
-}
-main section .section__h2 h2 {
-  font-weight: 100;
-}
-main .main__input {
-  position: relative;
-  display: grid;
-  grid-template-columns: 258px;
-  grid-auto-rows: 83px;
-  gap: 1rem;
-}
-main .main__input input {
-  background-color: rgba(5, 5, 5, 0.05);
-  border: 0.1rem solid #FFFFFF;
-  box-shadow: 0 0.4rem 0.4rem #7e7878;
-  height: 6rem;
-}
-main .main__input .fa-solid {
-  position: absolute;
-}
-main .main__input .fa-envelope, main .main__input .fa-unlock {
-  left: 1.2rem;
-}
-main .main__input .fa-envelope {
-  top: 2.8rem;
-}
-main .main__input .fa-unlock {
-  top: 12rem;
-}
-main .main__button-secondario {
-  background: rgba(39, 68, 91, 0.74);
-  border: 1px solid #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(126, 120, 120, 0.25);
-}
-
-/*# sourceMappingURL=login.css.map */

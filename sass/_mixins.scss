@@ -1,0 +1,6 @@
+@use './variables';
+@mixin estilos-fuentes-h-p-button{
+    font-family: variables.$fuente2;
+    font-style: normal;
+    line-height: normal;
+}

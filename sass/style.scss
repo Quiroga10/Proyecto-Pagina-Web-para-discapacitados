@@ -1,13 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-}
-
+@use './reset';
+@use './variables';
+@use './mixins';
 header {
     min-width: 32rem;
     max-width: 36rem;
@@ -25,7 +18,7 @@ header {
         left: 1rem;
 
         svg {
-            background-color: white;
+            background-color: variables.$color-claro;
             border-radius: 50%;
             font-weight: bold;
         }
@@ -56,22 +49,18 @@ main {
 
         h2 {
             text-align: center;
-            font-family: DM Sans;
-            font-size: 27px;
-            font-style: normal;
+            font-size: variables.$font-size-h2;
             font-weight: 700;
-            line-height: normal;
             margin-top: 5rem;
+            @include mixins.estilos-fuentes-h-p-button;
         }
 
         p {
             text-align: center;
-            font-family: DM Sans;
-            font-size: 17px;
-            font-style: normal;
+            font-size: variables.$font-size-p;
             font-weight: 700;
-            line-height: normal;
             margin-top: 5rem;
+            @include mixins.estilos-fuentes-h-p-button;
         }
 
         .register-button {
@@ -82,12 +71,10 @@ main {
             box-shadow: 0px 4px 4px 0px rgba(183, 164, 164, 0.25);
             color: #FFFDFD;
 
-            font-family: DM Sans;
-            font-size: 17px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
+            font-size: variables.$font-size-button;
+            @include mixins.estilos-fuentes-h-p-button;
             margin-top: 3rem;
+            font-weight: 400;
         }
 
         .container-password_login {
@@ -96,20 +83,16 @@ main {
 
             span {
                 text-align: center;
-                font-family: DM Sans;
-                font-size: 13px;
-                font-style: normal;
+                @include mixins.estilos-fuentes-h-p-button;
+                font-size: variables.$font-size-span;
                 font-weight: 400;
-                line-height: normal;
             }
 
-            h4 {
+            h3 {
                 text-align: center;
-                font-family: DM Sans;
-                font-size: 13px;
-                font-style: normal;
+                @include mixins.estilos-fuentes-h-p-button;
+                font-size: variables.$font-size-h3;
                 font-weight: 700;
-                line-height: normal;
             }
         }
     }
@@ -127,20 +110,16 @@ main {
         h2 {
             color: #286290;
 
-            font-family: DM Sans;
-            font-size: 20px;
-            font-style: normal;
+            @include mixins.estilos-fuentes-h-p-button;
             font-weight: 700;
-            line-height: normal;
+            font-size: variables.$font-size-h2;
         }
 
         p {
             text-align: center;
-            font-family: DM Sans;
-            font-size: 14px;
-            font-style: normal;
+            @include mixins.estilos-fuentes-h-p-button;
             font-weight: 500;
-            line-height: normal;
+            font-size: variables.$font-size-p;
         }
 
         .container-imagen_down {
@@ -151,9 +130,9 @@ main {
                 width: 120px;
                 height: 44px;
                 border-radius: 17px;
-                background: #2D506C;
+                background: variables.$fondo-button-primario;
                 box-shadow: 0px 4px 4px 0px rgba(183, 164, 164, 0.25);
-                color: #FFFDFD;
+                color: variables.$color-claro   ;
             }
         }
     }
@@ -168,11 +147,9 @@ main {
         h2 {
             color: #286290;
 
-            font-family: DM Sans;
-            font-size: 20px;
-            font-style: normal;
+            @include mixins.estilos-fuentes-h-p-button;
+            font-size: variables.$font-size-h2;
             font-weight: 700;
-            line-height: normal;
         }
         .container-imagen_down {
             display: flex;
@@ -184,9 +161,9 @@ main {
                 width: 120px;
                 height: 44px;
                 border-radius: 17px;
-                background: #2D506C;
+                background: variables.$fondo-button-primario;
                 box-shadow: 0px 4px 4px 0px rgba(183, 164, 164, 0.25);
-                color: #FFFDFD;
+                color: variables.$color-claro;
             }
         }
     }

@@ -1,35 +1,5 @@
-$fuente1:'Lato', sans-serif;
-$fuente2:'Oswald',sans-serif;
+@use './_reset';
 
-$color-h1:#333333;
-$color-h2:#939393;
-$color-p:#747474;
-$color-placeholder:#625E5E;
-$color-claro:#FFFFFF;
-$color-oscuro:#000000;
-$color-arrows: #415d86;
-
-$fondo-button-secundario:#27445bbd;
-$box-shadow-button-secundario:#7e787840;
-$box-shadow-button-primario:#B7A4A4;
-$box-shadow-input:#7E7878;
-
-$font-size-input:1.2rem;
-$font-size-h1:2.7rem;
-$font-size-h2:2.6rem;
-$font-size-h3:2.5rem;
-$font-size-button:2.4rem;
-
-*{
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html{
-    font-size: 62.5%;
-}
 header{
     width:100vw;
     max-width: 100rem;

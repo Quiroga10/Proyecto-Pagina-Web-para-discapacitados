@@ -1,7 +1,8 @@
 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -25,7 +26,7 @@ header .container-icons-arrows {
   left: 1rem;
 }
 header .container-icons-arrows svg {
-  background-color: white;
+  background-color: #FFFFFF;
   border-radius: 50%;
   font-weight: bold;
 }
@@ -53,21 +54,21 @@ main .container-info_one {
 }
 main .container-info_one h2 {
   text-align: center;
-  font-family: DM Sans;
-  font-size: 27px;
-  font-style: normal;
+  font-size: 1.7rem;
   font-weight: 700;
-  line-height: normal;
   margin-top: 5rem;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  line-height: normal;
 }
 main .container-info_one p {
   text-align: center;
-  font-family: DM Sans;
-  font-size: 17px;
-  font-style: normal;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: normal;
   margin-top: 5rem;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  line-height: normal;
 }
 main .container-info_one .register-button {
   width: 239px;
@@ -76,12 +77,12 @@ main .container-info_one .register-button {
   background: #2D506C;
   box-shadow: 0px 4px 4px 0px rgba(183, 164, 164, 0.25);
   color: #FFFDFD;
-  font-family: DM Sans;
-  font-size: 17px;
+  font-size: 1.7rem;
+  font-family: "Oswald", sans-serif;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   margin-top: 3rem;
+  font-weight: 400;
 }
 main .container-info_one .container-password_login {
   display: flex;
@@ -89,19 +90,19 @@ main .container-info_one .container-password_login {
 }
 main .container-info_one .container-password_login span {
   text-align: center;
-  font-family: DM Sans;
-  font-size: 13px;
+  font-family: "Oswald", sans-serif;
   font-style: normal;
+  line-height: normal;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: normal;
 }
-main .container-info_one .container-password_login h4 {
+main .container-info_one .container-password_login h3 {
   text-align: center;
-  font-family: DM Sans;
-  font-size: 13px;
+  font-family: "Oswald", sans-serif;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 main .container-info_two {
   width: 32rem;
@@ -115,19 +116,19 @@ main .container-info_two {
 }
 main .container-info_two h2 {
   color: #286290;
-  font-family: DM Sans;
-  font-size: 20px;
+  font-family: "Oswald", sans-serif;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
+  font-weight: 700;
+  font-size: 1.7rem;
 }
 main .container-info_two p {
   text-align: center;
-  font-family: DM Sans;
-  font-size: 14px;
+  font-family: "Oswald", sans-serif;
   font-style: normal;
-  font-weight: 500;
   line-height: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 main .container-info_two .container-imagen_down {
   display: flex;
@@ -139,7 +140,7 @@ main .container-info_two .container-imagen_down .enter-here {
   border-radius: 17px;
   background: #2D506C;
   box-shadow: 0px 4px 4px 0px rgba(183, 164, 164, 0.25);
-  color: #FFFDFD;
+  color: #FFFFFF;
 }
 main .container-info_three {
   width: 32rem;
@@ -150,11 +151,11 @@ main .container-info_three {
 }
 main .container-info_three h2 {
   color: #286290;
-  font-family: DM Sans;
-  font-size: 20px;
+  font-family: "Oswald", sans-serif;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
+  font-size: 1.7rem;
+  font-weight: 700;
 }
 main .container-info_three .container-imagen_down {
   display: flex;
@@ -168,7 +169,7 @@ main .container-info_three .container-imagen_down .enter-here {
   border-radius: 17px;
   background: #2D506C;
   box-shadow: 0px 4px 4px 0px rgba(183, 164, 164, 0.25);
-  color: #FFFDFD;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
