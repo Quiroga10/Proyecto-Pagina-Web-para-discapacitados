@@ -105,11 +105,13 @@ main .container-info_one .container-password_login h4 {
 }
 main .container-info_two {
   width: 32rem;
+  height: 32rem;
   margin: 0 auto;
   margin-top: 5rem;
   display: grid;
   justify-items: center;
-  grid-template-rows: repeat(3, 7rem);
+  align-items: center;
+  grid-template-rows: 3rem 5rem 23rem;
 }
 main .container-info_two h2 {
   color: #286290;
@@ -129,9 +131,37 @@ main .container-info_two p {
 }
 main .container-info_two .container-imagen_down {
   display: flex;
-  gap: 4rem;
+  align-items: center;
 }
 main .container-info_two .container-imagen_down .enter-here {
+  width: 120px;
+  height: 44px;
+  border-radius: 17px;
+  background: #2D506C;
+  box-shadow: 0px 4px 4px 0px rgba(183, 164, 164, 0.25);
+  color: #FFFDFD;
+}
+main .container-info_three {
+  width: 32rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+main .container-info_three h2 {
+  color: #286290;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .container-info_three .container-imagen_down {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+main .container-info_three .container-imagen_down .enter-here {
   width: 120px;
   height: 44px;
   border-radius: 17px;
