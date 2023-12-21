@@ -160,6 +160,7 @@ main .container-info_three .container-imagen_down {
   display: flex;
   align-items: center;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 main .container-info_three .container-imagen_down .enter-here {
   width: 120px;
